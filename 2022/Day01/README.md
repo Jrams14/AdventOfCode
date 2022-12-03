@@ -12,7 +12,7 @@ The Elves take turns writing down the number of Calories contained by the variou
 
 For example, suppose the Elves finish writing their items' Calories and end up with the following list:
 
-1000
+```1000
 2000
 3000
 
@@ -26,6 +26,8 @@ For example, suppose the Elves finish writing their items' Calories and end up w
 9000
 
 10000
+```
+
 This list represents the Calories of the food carried by five Elves:
 
 The first Elf is carrying food with 1000, 2000, and 3000 Calories, a total of 6000 Calories.
@@ -39,7 +41,8 @@ Find the Elf carrying the most Calories. How many total Calories is that Elf car
 
 Your puzzle answer was 69693.
 
---- Part Two ---
+## --- Part Two ---
+
 By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually run out of snacks.
 
 To avoid this unacceptable situation, the Elves would instead like to know the total Calories carried by the top three Elves carrying the most Calories. That way, even if one of those Elves runs out of snacks, they still have two backups.
