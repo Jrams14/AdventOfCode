@@ -9,7 +9,6 @@ const totalScore = fs
   .forEach((elfPair) => {
     // 2-8, 3-7;
     let [elfOneSections, elfTwoSections] = elfPair.split(",");
-
     let [elfOneSectionStart, elfOneSectionEnd] = elfOneSections
       .split("-")
       .map((elfSection) => parseInt(elfSection));
@@ -19,9 +18,9 @@ const totalScore = fs
 
     if (
       (elfOneSectionStart <= elfTwoSectionStart &&
-        elfOneSectionEnd >= elfTwoSectionStart) ||
+        elfOneSectionEnd >= elfTwoSectionEnd) ||
       (elfOneSectionStart >= elfTwoSectionStart &&
-        elfOneSectionStart <= elfTwoSectionEnd)
+        elfOneSectionEnd <= elfTwoSectionEnd)
     ) {
       amountofPairsWithOverlap++;
     }
