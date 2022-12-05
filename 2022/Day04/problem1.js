@@ -22,6 +22,7 @@ const totalScore = fs
       (elfOneSectionStart >= elfTwoSectionStart &&
         elfOneSectionEnd <= elfTwoSectionEnd)
     ) {
+
       amountofPairsWithOverlap++;
     }
   });
