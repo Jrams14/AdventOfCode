@@ -17,7 +17,7 @@ const test = fs
           currentGroupRuckSacks[1].indexOf(itemType) !== -1 &&
           currentGroupRuckSacks[2].indexOf(itemType) !== -1
       );
-      console.log(duplicateItemType);
+
       if (duplicateItemType) {
         itemPrioritySum += findItemTypePriority(duplicateItemType);
       }
