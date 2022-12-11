@@ -19,6 +19,7 @@ const test = fs
     }
   });
 
+
 function findItemTypePriority(itemType) {
   const offset = itemType === itemType.toUpperCase() ? 38 : 96;
   return itemType.charCodeAt(0) - offset;
