@@ -1,9 +1,10 @@
 ## --- Day 7: No Space Left On Device ---
+
 You can hear birds chirping and raindrops hitting leaves as the expedition proceeds. Occasionally, you can even hear much louder sounds in the distance; how big do the animals get out here, anyway?
 
 The device the Elves gave you has problems with more than just its communication system. You try to run a system update:
 
-$ system-update --please --pretty-please-with-sugar-on-top
+\$ system-update --please --pretty-please-with-sugar-on-top
 Error: No space left on device
 Perhaps you can delete some files to make space for the update?
 
@@ -73,7 +74,7 @@ To begin, find all of the directories with a total size of at most 100000, then 
 
 Find all of the directories with a total size of at most 100000. What is the sum of the total sizes of those directories?
 
-Your puzzle answer was 1141028.
+Your puzzle answer was 1642503.
 
 ## --- Part Two ---
 Now, you're ready to choose a directory to delete.
@@ -92,6 +93,7 @@ To achieve this, you have the following options:
 
 Find the smallest directory that, if deleted, would free up enough space on the filesystem to run the update. What is the total size of that directory?
 
-Your puzzle answer was 8278005.
+Your puzzle answer was 6999588.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
+```
